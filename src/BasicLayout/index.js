@@ -2,19 +2,10 @@ import React, { Component } from 'react'
 import 'antd/dist/antd.css'
 import {
   Layout,
-  Menu,
   Breadcrumb,
 } from 'antd'
-import {
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
-  BookOutlined,
-  SettingOutlined,
-  HomeOutlined,
-} from '@ant-design/icons'
 
 import Main from '../Main/index'
-import Setting from '../Setting/index'
 
 import './index.css';
 
@@ -34,54 +25,25 @@ class BasicLayout extends Component {
 
     return (
       <Layout>
-        <Layout.Sider trigger={null} collapsible collapsed={this.state.collapsed}>
+        <Layout.Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
           <div className="logo" />
-          <Menu theme="dark" mode="inline" defaultSelectedKeys={['home']}>
-            <Menu.Item key="home" icon={<HomeOutlined />}>
-              首頁
-            </Menu.Item>
-            {/* <Menu.SubMenu key="translation" icon={<BookOutlined />} title="譯本">
-              <Menu.Item key="CCB">
-                當代譯本修訂
-              </Menu.Item>
-            </Menu.SubMenu>
-            <Menu.Item key="setting" icon={<SettingOutlined />}>
-              設定
-            </Menu.Item> */}
-          </Menu>
-        </Layout.Sider>
-        <Layout className="site-layout">
-          <Layout.Header className="site-layout-background" style={{ padding: 0 }}>
-            {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
-              className: 'trigger',
-              onClick: this.toggle,
-            })}
-          </Layout.Header>
-          {/* <Layout.Content
-            className="site-layout-background"
-            style={{
-              // margin: '24px 16px',
-              padding: 24,
-              minHeight: 800,
-              // height: '100%',
-            }}
-          >
+          {/* <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
+            <Menu.Item key="1">首頁</Menu.Item>
+            <Menu.Item key="2">nav 2</Menu.Item>
+            <Menu.Item key="3">nav 3</Menu.Item>
+          </Menu> */}
+        </Layout.Header>
+        <Layout.Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
+          <Breadcrumb style={{ margin: '16px 0' }}>
+            {/* <Breadcrumb.Item>Home</Breadcrumb.Item>
+            <Breadcrumb.Item>List</Breadcrumb.Item>
+            <Breadcrumb.Item>App</Breadcrumb.Item> */}
+          </Breadcrumb>
+          <div className="site-layout-background" style={{ padding: 24, minHeight: 800 }}>
             <Main />
-          </Layout.Content> */}
-          <Layout.Content
-            style={{ margin: '0 16px' }}
-          >
-            <Breadcrumb style={{ margin: '16px 0' }}>
-              {/* <Breadcrumb.Item>麥琴年度讀經計畫</Breadcrumb.Item>
-              <Breadcrumb.Item>譯本</Breadcrumb.Item>
-              <Breadcrumb.Item>聖經當代譯本修訂版(CCB)</Breadcrumb.Item>
-              <Breadcrumb.Item>首頁</Breadcrumb.Item> */}
-            </Breadcrumb>
-            <div className="site-layout-background" style={{ padding: 24, minHeight: 800 }}>
-              <Main />
-            </div>
-          </Layout.Content>
-        </Layout>
+          </div>
+        </Layout.Content>
+        <Layout.Footer style={{ textAlign: 'center' }}>Produced by christmai ©2021</Layout.Footer>
       </Layout>
     )
   }
