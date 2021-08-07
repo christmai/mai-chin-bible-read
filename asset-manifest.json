@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/mai-chin-bible-read/static/css/main.ffdfe789.chunk.css",
-    "main.js": "/mai-chin-bible-read/static/js/main.615caf38.chunk.js",
-    "main.js.map": "/mai-chin-bible-read/static/js/main.615caf38.chunk.js.map",
-    "runtime-main.js": "/mai-chin-bible-read/static/js/runtime-main.6cbf2dfc.js",
-    "runtime-main.js.map": "/mai-chin-bible-read/static/js/runtime-main.6cbf2dfc.js.map",
+    "main.js": "/mai-chin-bible-read/static/js/main.e69e5759.chunk.js",
+    "main.js.map": "/mai-chin-bible-read/static/js/main.e69e5759.chunk.js.map",
+    "runtime-main.js": "/mai-chin-bible-read/static/js/runtime-main.7f3ff653.js",
+    "runtime-main.js.map": "/mai-chin-bible-read/static/js/runtime-main.7f3ff653.js.map",
     "static/css/2.83a79fa7.chunk.css": "/mai-chin-bible-read/static/css/2.83a79fa7.chunk.css",
-    "static/js/2.2350a0b2.chunk.js": "/mai-chin-bible-read/static/js/2.2350a0b2.chunk.js",
-    "static/js/2.2350a0b2.chunk.js.map": "/mai-chin-bible-read/static/js/2.2350a0b2.chunk.js.map",
-    "static/js/3.8caed419.chunk.js": "/mai-chin-bible-read/static/js/3.8caed419.chunk.js",
-    "static/js/3.8caed419.chunk.js.map": "/mai-chin-bible-read/static/js/3.8caed419.chunk.js.map",
+    "static/js/2.fa499f72.chunk.js": "/mai-chin-bible-read/static/js/2.fa499f72.chunk.js",
+    "static/js/2.fa499f72.chunk.js.map": "/mai-chin-bible-read/static/js/2.fa499f72.chunk.js.map",
+    "static/js/3.c56a30d6.chunk.js": "/mai-chin-bible-read/static/js/3.c56a30d6.chunk.js",
+    "static/js/3.c56a30d6.chunk.js.map": "/mai-chin-bible-read/static/js/3.c56a30d6.chunk.js.map",
     "index.html": "/mai-chin-bible-read/index.html",
     "static/css/2.83a79fa7.chunk.css.map": "/mai-chin-bible-read/static/css/2.83a79fa7.chunk.css.map",
     "static/css/main.ffdfe789.chunk.css.map": "/mai-chin-bible-read/static/css/main.ffdfe789.chunk.css.map",
-    "static/js/2.2350a0b2.chunk.js.LICENSE.txt": "/mai-chin-bible-read/static/js/2.2350a0b2.chunk.js.LICENSE.txt"
+    "static/js/2.fa499f72.chunk.js.LICENSE.txt": "/mai-chin-bible-read/static/js/2.fa499f72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6cbf2dfc.js",
+    "static/js/runtime-main.7f3ff653.js",
     "static/css/2.83a79fa7.chunk.css",
-    "static/js/2.2350a0b2.chunk.js",
+    "static/js/2.fa499f72.chunk.js",
     "static/css/main.ffdfe789.chunk.css",
-    "static/js/main.615caf38.chunk.js"
+    "static/js/main.e69e5759.chunk.js"
   ]
 }
