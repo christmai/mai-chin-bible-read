@@ -22,6 +22,8 @@ class BasicLayout extends Component {
   }
 
   render() {
+    const screenWidth = window.innerWidth
+    const isMobileScreen = screenWidth <= 576
 
     return (
       <Layout>
@@ -33,7 +35,10 @@ class BasicLayout extends Component {
             <Menu.Item key="3">nav 3</Menu.Item>
           </Menu> */}
         </Layout.Header>
-        <Layout.Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
+        <Layout.Content
+          className="site-layout"
+          style={isMobileScreen ? { padding: '0 15px', marginTop: 64 } : { padding: '0 50px', marginTop: 64 }}
+        >
           <Breadcrumb style={{ margin: '16px 0' }}>
             {/* <Breadcrumb.Item>Home</Breadcrumb.Item>
             <Breadcrumb.Item>List</Breadcrumb.Item>
