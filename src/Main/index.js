@@ -116,7 +116,7 @@ function Content() {
               </div>
             </div>
           </Col>
-          <Col xs={24} sm={24} md={24} lg={8}>
+          {/* <Col xs={24} sm={24} md={24} lg={8}>
             <div style={{ textAlign: 'center' }}>
               <Popconfirm
                 title="確定要清除?"
@@ -126,7 +126,7 @@ function Content() {
                 </Button>
               </Popconfirm>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </div>
       <Table
@@ -194,7 +194,7 @@ function Content() {
             />
           </div>
         )}
-        <Table.Column
+        {/* <Table.Column
           title="已讀"
           dataIndex="checkBox"
           key="checkBox"
@@ -208,7 +208,7 @@ function Content() {
               />
             )
           }}
-        />
+        /> */}
       </Table>
     </div>
   )
